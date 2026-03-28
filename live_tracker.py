@@ -61,7 +61,7 @@ from dotenv import load_dotenv
 from ultralytics import YOLO
 from supabase import create_client, Client
 
-# ── Config ────────────────────────────────────────────────────────────────────
+# Config
 
 MODEL_PATH = "best.pt"
 OUTPUT_DIR = Path("output")
