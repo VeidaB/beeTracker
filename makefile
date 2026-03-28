@@ -32,5 +32,4 @@ run-live:
 
 clean:
 	rm -rf $(VENV)
-	rm -f output/bee_telemetry.csv output/bee_telemetry_with_speed.csv
-	rm -f output/bee_summary_statistics.xlsx output/speed_plot.png output/tracked_video.mp4
+	rm -rf output/*
